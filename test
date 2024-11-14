@@ -1,0 +1,200 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# COGS 108 - Project Proposal"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Names\n",
+    "\n",
+    "- Indrani Vairagare\n",
+    "- Jessica Truong\n",
+    "- Dongqing Li\n",
+    "- Shannon Ross\n",
+    "- Shreya Nagesh"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Research Question"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "What is the relationship between levels of depression and frequency of alcohol use during COVID (August 2021-May 2023) vs post-COVID (May 2023-August 2023) for adults in the US?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Background and Prior Work"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Not only was COVID a high-risk time for physical illness, but it also allowed for mental illness to boom as a result. COVID quarantine proved to be a very isolating time worldwide, which can heighten both depression levels and alcohol abuse levels. Based on the study conducted by the American Addiction Centers, it states that research shows that there seems to be a bidirectional relationship between alcohol use and depressive disorders <a name=\"cite_ref-1\"></a>[<sup>1</sup>](#cite_note-1). This means that alcohol abuse can affect mental health and mental health can affect alcohol abuse. This bidirectional relationship shows that these variables have a cyclic nature in the way they continuously affect each other.\n",
+    "\n",
+    "However, this is not the only relationship that is being explored. Another prior work study about this topic is discussed in the article by the National Library of Medicine showing how frequent alcohol usage decreased from pre- to post-COVID-19 period <a name=\"cite_ref-2\"></a>[<sup>2</sup>](#cite_note-2). This helps to understand how the relationship between alcohol abuse and depression levels is affected by COVID in general.\n",
+    "\n",
+    "1. <a name=\"cite_note-1\"></a> [^](#cite_ref-1) https://americanaddictioncenters.org/alcohol/risks-effects-dangers/depression \n",
+    "2. <a name=\"cite_note-2\"></a> [^](#cite_ref-2) https://pmc.ncbi.nlm.nih.gov/articles/PMC8509511/\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Hypothesis\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "During the COVID pandemic period, specifically from August 2021 to May 2023, adults in the US with high levels of depression will report a higher frequency of alcohol use compared to post-covid, specifically from May 2023 to August 2023, when both depression levels and alcohol use frequency will decrease. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Data"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Ideal Dataset:\n",
+    "Has unique identifiers that can integrate different datasets \n",
+    "Mental health data\n",
+    "Alcohol use data\n",
+    "Temporal data (Same data point from before and during covid)\n",
+    "Health outcome data (for confounding variables such as BMI, weight, diabetes) \n",
+    "Demographic data (for confounding variables such as race, age, gender)\n",
+    "Large dataset\n",
+    "\n",
+    "Available Dataset: \n",
+    "From CDC NHANES (National Health and Nutrition Examination Surveys)  \n",
+    "url: https://wwwn.cdc.gov/nchs/nhanes/default.aspx\n",
+    "Unique Identifier\n",
+    "SEQN - Respondent sequence number for participants \n",
+    "Mental health data\n",
+    "Alcohol use data\n",
+    "Temporal data (pre-pandemic data 2017 to March 2020; along with 08/2021 to 08/2023; ps. WHO declared COVID-19 ended on May 5th, 2023, and Joe Biden’s administration announced the public health emergency declarations ends on May 11th, 2023)\n",
+    "Health outcome data\n",
+    "Demographic data\n",
+    "Large dataset (over thousands of participants, strong statistical power)\n",
+    "\n",
+    "\n",
+    "Variables\n",
+    "Covid and Post-Covid Timeframes\n",
+    "Alcohol use\n",
+    "Levels of depression\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Ethics & Privacy"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "The data collected for this study comes from publicly available datasets, using data from the CDC’s National Health and Nutrition Examination Survey (NHANES). Data collected are shown anonymously and have been provided informed consent from participants, allowing the studies to proceed within established privacy guidelines. \n",
+    "\n",
+    "The dataset’s sampling may introduce potential biases, retrieving data from certain subpopulations may be less representative and those with limited healthcare access or from other socioeconomic factors could be underrepresented. This underrepresentation can affect a fair analysis, as trends in mental health and alcohol use may differ across different demographic groups. \n",
+    "\n",
+    "To address these biases, we aim to acknowledge the demographic limitations and indicate that the trends that we study do not fully reveal the experiences of all U.S. adults. Studying the dataset closely, we will identify the gaps that could influence connections/relationships that we find between depression and alcohol use frequency during COVID and post-COVID."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Team Expectations "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Deadline expectations - All of the members of the group will have to abide by the deadlines for each step of the project.\n",
+    "Clear communication - All members of the group will communicate ideas, feedback and suggestions clearly and effectively.\n",
+    "Honest work - All members of the group will produce honest and ethical work when it comes to the data collection, and every aspect of the project."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Project Timeline Proposal"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Specify your team's specific project timeline. An example timeline has been provided. Changes the dates, times, names, and details to fit your group's plan.\n",
+    "\n",
+    "If you think you will need any special resources or training outside what we have covered in COGS 108 to solve your problem, then your proposal should state these clearly. For example, if you have selected a problem that involves implementing multiple neural networks, please state this so we can make sure you know what you’re doing and so we can point you to resources you will need to implement your project. Note that you are not required to use outside methods.\n",
+    "\n",
+    "\n",
+    "\n",
+    "| Meeting Date  | Meeting Time| Completed Before Meeting  | Discuss at Meeting |\n",
+    "|---|---|---|---|\n",
+    "| 10/31  |  2 PM | Review literature and NHANES documentation | Finalize research question and hypothesis & Assign roles | \n",
+    "| 11/4 |  2 PM |  Load datasets into Python Initial data exploration | Discuss data cleaning strategies &Plan analysis approach | \n",
+    "| 11/11  | 2 PM  | Conduct EDA; Summarize preliminary findings; Complete data cleaning and preprocessing| Identify key variables; Adjust analysis plan if necessary; Review/Edit wrangling/EDA; Discuss Analysis Plan|\n",
+    "| 11/14  | 2 PM  | Perform statistical analyses (regression models, correlations) | Interpret results; Discuss implications |\n",
+    "| 11/21 | 2 PM  | Draft report sections (Introduction, Methods, Results) inFinalize report; Create visualizations and figures| Peer-review drafts; Integrate sections into a cohesive report; Edit and proofread; Prepare presentation materials |\n",
+    "| 11/27  | 2 PM  | Complete any remaining analysis; Practice presentation; Checkpoint #2: EDA Due| Final revisions; Address any feedback; Submit EDA checkpoint; Plan for final submission|\n",
+    "| 12/10  | Before 11:59 PM  | Finalize all project components; Practice presentation; Final Project, Video, Team Evaluation Due Next Day | Ensure project is ready for submission; Final review; Ensure all requirements are met; Submit final project materials; Complete team evaluations|"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
